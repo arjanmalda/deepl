@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+.translate-field {
+  width: 25vw;
+  height: 25vh;
+  resize: none;
+}
+
+.source-title {
+  font-size: 1.5rem;
+}
+
+.target-title {
+  font-size: 1.5rem;
+}
+
+.translation-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.translation-container > div {
+  margin: 10px;
+}
+
+.target-container {
+  display: flex;
+  flex-direction: column;
+}
